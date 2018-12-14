@@ -1,7 +1,7 @@
 <resources>
     <string name="asset_statements" translatable="false">[{ \"include\": \"https://api.tinode.co/.well-known/assetlinks.json\" }]</string>
     <string name="tinode_url" translatable="false">https://github.com/tinode/</string>
-    <string name="default_host_name" translatable="false">10.0.2.2:6060</string>
+    <string name="default_host_name" translatable="false">172.20.10.2:6060</string>
 
     <string name="app_name" translatable="false">Tindroid</string>
     <string name="app_name_full" translatable="false">Tindroid Messenger</string>
@@ -73,6 +73,7 @@
     <string name="action_send_now">Send now</string>
     <string name="action_view_details">View details</string>
     <string name="action_copy">Copy</string>
+    <string name="action_speak" translatable="false">Speak</string>
     <string name="action_offline">Working offline</string>
     <string name="action_delete_group">Delete conversation…</string>
 
@@ -212,4 +213,6 @@
     <string name="enter_valid_address">Enter valid %1$s</string>
     <string name="invalid_or_unknown_credential">Invalid or unknown address</string>
     <string name="password_reset_message_sent">Message with instructions sent</string>
+    <string name="speech_prompt">어떤 말이든 해보세요!</string>
+    <string name="speech_not_supported">이 기기는 SST 지원을 하지 않습니다.</string>
 </resources>
