@@ -1,6 +1,6 @@
-# 연락혀: 노인들을 위한 특별한 메신저
-Android instant messenger using [Tinode](https://github.com/tinode/chat/) backend. Beta-quality software.
-A [debug APK](https://storage.googleapis.com/tinode.co/tindroid.apk) is provided for convenience.
+# 연락혀: 어르신들을 위한 특별한 메신저
+스마트폰 메신저앱 사용에 불편을 느껴 사회로 부터 소외감을 느끼시는 어르신들을 위해 최적화된 메신저 앱
+C:\Users\pyj\Desktop\연락혀small.svg
 
 ## 앱설명
 * 노인분들이 쉽게 어플의 기능들을 모두 활용하여 의사소통할 수 있도록 특성화된 메신저 어플이다. 
