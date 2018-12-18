@@ -189,7 +189,7 @@
     <string name="validation_example">Numbers only</string>
     <string name="enter_confirmation_code">Enter confirmation code</string>
     <string name="failed_credential_confirmation">초대 코드 오류</string>
-    <string name="addByIdHint">찾을 친구를 검색하세요.</string>
+    <string name="addByIdHint">친구를 검색하세요.</string>
     <string name="failed_empty_id">ID is required</string>
     <string name="topic_not_found_or_invalid">존재하지 않음</string>
     <string name="sending_disabled">Not available</string>
