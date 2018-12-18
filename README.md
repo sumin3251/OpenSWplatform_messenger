@@ -23,7 +23,22 @@
 ## 앱 사용법 (with 스크린샷)
 
 ## 주요 기능 및 관련 코드 / API 설명
-
+1) STT (speech to text)
+2) TTS (text to speech)
+3) Seismic (shake to speech)
+      // Shake Detection function
+          public void hearShake() {
+              while(shakeTimes < 3) {
+                  shakeTimes++;
+              }
+              Toast.makeText(getContext(), "흔들림이 3번 감지되었습니다.", Toast.LENGTH_SHORT).show();
+              if(sendEmergency == true) {
+                  sendEmergency = false;
+                  txtSpeechInput.setText("[보호자 알림] 2018-12-15 02:32 OOO님의 휴대폰에서 긴급 상황이 감지되었습니다.");
+                  sendText();
+                  txtSpeechInput.setText("");
+              }
+          }
 ## 라이센스 정보
   APACHE 2.0 LICENSE
 아파치 2.0 라이선스는 누구나 해당 소프트웨어에서 파생된 프로그램을 제작할 수 있으며 저작권을 양도, 전송할 수 있는 라이선스 규정을 의미한다. 아파치 라이선스에 따르면 누구든 자유롭게 아파치 소프트웨어를 다운 받아 부분 혹은 전체를 개인적 혹은 상업적 목적으로 이용할 수 있으며 재배포시에는 원본 소스 코드 또는 수정한 소스 코드를 반드시 포함시켜야 하는 것은 아니고 아파치 라이선스, 버전 2.0을 포함시켜야 하며 아파치 소프트웨어 재단에 개발된 소프트웨어라는 것을 명확하게 밝혀야 한다. 
