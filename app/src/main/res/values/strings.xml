@@ -93,19 +93,19 @@
 
     <!-- Used for the AlphabetIndexer in ContactsListFragment to provide quick navigation by
      alphabet using ListView fast scroll. -->
-    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="alphabet">A</string>
 
-    <string name="search_hint">Find contacts</string>
+    <string name="search_hint">연락처 찾기</string>
     <string name="contacts_permission_denied">Contacts not loaded: permission denied</string>
     <string name="account_already_exists">Account already exists</string>
-    <string name="pick_account">Pick Account</string>
+    <string name="pick_account">계정 선택하기</string>
     <string name="tinode_invite_subject">Check out Tindroid Messenger</string>
     <string name="tinode_invite_body">Check out Tindroid Messenger. Download it from https://github.com/tinode/</string>
 
-    <string name="profile_action">Tinode profile</string>
+    <string name="profile_action">연락혀 계정</string>
     <string name="view_profile">View Profile</string>
-    <string name="tinode_message">Send Tinode message</string>
-    <string name="failed_to_invite">Don\'t know how to invite - no contact info</string>
+    <string name="tinode_message">메세지 보내기</string>
+    <string name="failed_to_invite">존재하지 않는 계정입니다.</string>
     <string name="about_title">About</string>
     <string name="failed_to_send_message">Failed to send message</string>
     <string name="failed_to_delete_messages">Failed to delete messages</string>
@@ -162,7 +162,7 @@
     <string name="owner_cannot_unsubscribe">Owner cannot unsubscribe</string>
     <string name="read_receipts_enabled">Send read receipts</string>
     <string name="typing_notifications_enabled">Show typing notifications</string>
-    <string name="logout">Logout</string>
+    <string name="logout">로그아웃</string>
     <string name="change_password">Change password</string>
     <string name="account_settings">Account settings</string>
     <string name="enter_new_password">Enter new password</string>
@@ -188,10 +188,10 @@
     <string name="confirm">Confirm</string>
     <string name="validation_example">Numbers only</string>
     <string name="enter_confirmation_code">Enter confirmation code</string>
-    <string name="failed_credential_confirmation">Incorrect confirmation code</string>
-    <string name="addByIdHint">Enter topic or user ID</string>
+    <string name="failed_credential_confirmation">초대 코드 오류</string>
+    <string name="addByIdHint">찾을 친구를 검색하세요.</string>
     <string name="failed_empty_id">ID is required</string>
-    <string name="topic_not_found_or_invalid">Topic not found or invalid</string>
+    <string name="topic_not_found_or_invalid">존재하지 않음</string>
     <string name="sending_disabled">Not available</string>
     <string name="failed_to_download">Failed to save downloaded file</string>
     <string name="failed_to_open_file">No application can view the file of this type</string>
@@ -203,7 +203,7 @@
     <string name="login_rejected">Login rejected</string>
     <string name="email_rejected">Email rejected</string>
     <string name="invalid_confirmation_code">Invalid code</string>
-    <string name="notification_channel_name">New mesage</string>
+    <string name="notification_channel_name">새로운 메시지!</string>
     <string name="notification_channel_description">New message was received</string>
     <string name="request_pass_reset">Request password reset by %1$s:</string>
     <string name="validated_address_to_use">Validated %1$s to use</string>
