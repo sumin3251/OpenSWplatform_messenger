@@ -24,6 +24,7 @@
 
 ## 주요 기능 및 관련 코드 / API 설명
 1) STT (speech to text)
+>>fff
 
        public void onClick(DialogInterface dialog, int which) {
                try {
