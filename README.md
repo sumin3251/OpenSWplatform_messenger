@@ -24,7 +24,7 @@
 
 ## 주요 기능 및 관련 코드 / API 설명
 1) STT (speech to text)
->>fff
+  사용자에게서 인식해온 음성을 makeText 함수로 넘겨 음성을 텍스트로 변환한다.
 
        public void onClick(DialogInterface dialog, int which) {
                try {
@@ -50,6 +50,7 @@
 
   
 3) Seismic (shake to speech)  
+   shakeTimes을 변수로 두어 3번 이상 흔들 경우 sendEmergency를 참으로 바꿔 알림 메세지를 보낸다.
  
         public void hearShake() {
               while(shakeTimes < 3) {
