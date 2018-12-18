@@ -32,5 +32,4 @@
         android:orderInCategory="103"
         android:title="@string/action_delete"
         app:showAsAction="always"/>
-
 </menu>
