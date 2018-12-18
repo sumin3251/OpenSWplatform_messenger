@@ -24,9 +24,31 @@
 
 ## 주요 기능 및 관련 코드 / API 설명
 1) STT (speech to text)
+
+       public void onClick(DialogInterface dialog, int which) {
+               try {
+                    mTopic.delete().thenApply(new PromisedReply.SuccessListener<ServerMessage>()
+                        public PromisedReply<ServerMessage> onSuccess(ServerMessage result) {
+                            Intent intent = new Intent(getActivity(), ContactsActivity.class);
+                            intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+                            startActivity(intent);
+                            getActivity().finish();
+                            return null;
+                        }
+                    }, mFailureListener);
+                } catch (NotConnectedException ignored) {
+                    Toast.makeText(activity, R.string.no_connection, Toast.LENGTH_SHORT).show();
+                } catch (Exception ignored) {
+                    Toast.makeText(activity, R.string.action_failed, Toast.LENGTH_SHORT).show();
+                }
+       }
+  
+
+
 2) TTS (text to speech)
 
- 3) Seismic (shake to speech)  
+  
+3) Seismic (shake to speech)  
  
         public void hearShake() {
               while(shakeTimes < 3) {
