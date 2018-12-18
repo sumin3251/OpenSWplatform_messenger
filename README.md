@@ -25,8 +25,9 @@
 ## 주요 기능 및 관련 코드 / API 설명
 1) STT (speech to text)
 2) TTS (text to speech)
-3) Seismic (shake to speech)
-*      // Shake Detection function
+
+*    3) Seismic (shake to speech)  
+        // Shake Detection function
           public void hearShake() {
               while(shakeTimes < 3) {
                   shakeTimes++;
