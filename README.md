@@ -14,9 +14,9 @@
 
 ## 개발자 정보
 
-* 1615011 김지민 : @jeemin97world / 중간발표, 코드 
+* 1615011 김지민 : @jeemin97world / 중간발표, UI
 * 1771014 김영주 : @RLADUDWN7237 / 중간발표, UI
-* 1771094 박유진 : @jinee525 / 기말발표, UI
+* 1771094 박유진 : @jinee525 / 기말발표, UI, Readme 정리
 * 1771039 윤소연 : @ysy9893 / 기말발표 ,api
 * 1415030 박수민 : @sumin3251 / api(TTS, Shake detection)
 
