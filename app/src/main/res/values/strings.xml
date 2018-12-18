@@ -17,7 +17,7 @@
     <string name="send_file_button_hint">파일 보내기</string>
 
     <string name="sign_in">로그인!</string>
-    <string name="app_description" translatable="false">오픈프로젝트_연락혀</string>
+    <string name="app_description" translatable="false">친구야, 연락혀!</string>
     <string name="action_signup">로그인</string>
     <string name="sign_up">로그인</string>
     <string name="login_new">아이디</string>
@@ -86,7 +86,7 @@
     <string name="login_required">Login required</string>
     <string name="password_required">Password required</string>
     <string name="error_new_account_failed">Account registration failed:</string>
-    <string name="no_contacts">No contacts found</string>
+    <string name="no_contacts">등록된 친구가 없습니다.</string>
     <string name="invite">초대</string>
     <string name="contacts">친구 목록</string>
     <string name="chats">대화 목록</string>
@@ -208,7 +208,7 @@
     <string name="request_pass_reset">Request password reset by %1$s:</string>
     <string name="validated_address_to_use">Validated %1$s to use</string>
     <string name="request">Request</string>
-    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_password">비밀번호 찾기</string>
     <string name="enter_valid_address">Enter valid %1$s</string>
     <string name="invalid_or_unknown_credential">Invalid or unknown address</string>
     <string name="password_reset_message_sent">Message with instructions sent</string>
