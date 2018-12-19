@@ -139,11 +139,7 @@
        }
   
 
-
-2) TTS (text to speech)
-
-  
-3) Seismic (shake to speech)  
+2) Seismic (shake to speech)  
    shakeTimes을 변수로 설정하여 사용자가 기기를 3번 이상 흔들 경우 sendEmergency를 참으로 바꿔 알림 메세지를 보낸다.
  
         public void hearShake() {
