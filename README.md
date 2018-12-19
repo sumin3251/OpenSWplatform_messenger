@@ -28,9 +28,14 @@
 * 1415030 박수민 : @sumin3251 / api(TTS, Shake detection), git repository 생성 및 관리, 서버및 데이터베이스 생성
 
 ## 앱 사용법 (with 스크린샷)
-1)서버 구축
+1)Rethink 서버 구축
 <hr>
 <img src="https://user-images.githubusercontent.com/43829772/50197534-d5de5a00-038a-11e9-9b27-28376a864b73.png" width="90%"></img>
+<hr>
+2)tinode 데이터 베이스 구동
+<img src="https://user-images.githubusercontent.com/43829772/50197665-7fbde680-038b-11e9-9801-87a308bfcf42.png" width="90%"></img>
+
+
 
 ## 주요 기능 및 관련 코드 / API 설명
 1) STT (speech to text)
