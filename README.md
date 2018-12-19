@@ -29,6 +29,7 @@
 
 ## 앱 사용법 (with 스크린샷)
 1)서버 구축
+<hr>
 <img src="https://user-images.githubusercontent.com/43829772/50197534-d5de5a00-038a-11e9-9b27-28376a864b73.png" width="90%"></img>
 
 ## 주요 기능 및 관련 코드 / API 설명
