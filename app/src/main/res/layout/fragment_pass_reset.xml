@@ -48,13 +48,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 style="?android:attr/buttonBarStyle">
+
                 <Button
                     android:id="@+id/cancel"
+                    style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:text="@android:string/cancel"
-                    android:textSize="16sp"/>
+                    android:text="@string/cancel"
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/confirm"

@@ -65,11 +65,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_toLeftOf="@id/imageAvatar"
                         android:layout_toStartOf="@id/imageAvatar"
+                        android:layout_toLeftOf="@id/imageAvatar"
                         android:maxLines="2"
-                        android:textIsSelectable="true"
-                        tools:text="User name"/>
+                        android:text="User Name"
+                        android:textIsSelectable="true" />
 
                     <TextView
                         android:id="@+id/topicSubtitle"

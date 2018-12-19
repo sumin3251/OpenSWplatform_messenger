@@ -57,11 +57,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_toLeftOf="@id/imageAvatar"
                     android:layout_toStartOf="@id/imageAvatar"
+                    android:layout_toLeftOf="@id/imageAvatar"
                     android:maxLines="2"
                     android:textIsSelectable="true"
-                    tools:text="Topic title (public)"/>
+                    tools:text="그룹 대화 주제" />
 
                 <TextView
                     android:id="@+id/topicSubtitle"
@@ -72,7 +72,7 @@
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textIsSelectable="true"
-                    tools:text="Topic subtitle (private)"/>
+                    tools:text="그룹 대화 주제 상세 설명" />
 
             </RelativeLayout>
         </android.support.v7.widget.CardView>
@@ -240,7 +240,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/permissions"
-                        tools:text="Permissions" />
+                        tools:text="권한" />
 
                     <TextView
                         style="@style/textPrimary"

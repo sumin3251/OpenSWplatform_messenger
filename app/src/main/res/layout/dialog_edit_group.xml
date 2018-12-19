@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/topic_title"
             android:inputType="text"
-            tools:text="Topic title"/>
+            tools:text="그룹 대화 주제" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/topic_private"
             android:inputType="text"
-            tools:text="Private topic info"/>
+            tools:text="그룹 대화 주제 상세 설명" />
 
     </android.support.design.widget.TextInputLayout>
 

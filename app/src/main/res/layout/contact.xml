@@ -69,6 +69,7 @@
                 android:background="@drawable/pill_counter"
                 android:gravity="center"
                 android:padding="3dp"
+                android:textAppearance="@style/textPrimaryLarge"
                 android:textColor="@color/white"
                 android:textSize="10sp"
                 android:textStyle="bold"
