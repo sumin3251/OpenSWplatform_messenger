@@ -104,7 +104,7 @@
 	<strong style="font-family:sans-serif;font-size:xx-large; " >반복된 흔들림을 감지하여 보호자에게 위급상황 알림 </strong>
 </pr>
 
-<img src="https://user-images.githubusercontent.com/43829772/50199291-57d28100-0393-11e9-8f03-173740d915f2.jpg" width="70%"></img>
+<img src="https://user-images.githubusercontent.com/43829772/50199291-57d28100-0393-11e9-8f03-173740d915f2.jpg" width="40%"></img>
 <hr>
 
 ## 웹 사용 (스크린 샷)
