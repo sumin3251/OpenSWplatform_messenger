@@ -27,17 +27,22 @@
 * 1771039 윤소연 : @ysy9893 / 코드 분석(STT,Shake Detection, AndroidManifest.xml 등), tts 코드 연구 및 자료 , 기말발표
 * 1415030 박수민 : @sumin3251 / api(TTS, Shake detection), git repository 생성 및 관리, 서버및 데이터베이스 생성
 
-<body style="background-color:#92B3B7;">
 ## 앱 사용법 (with 스크린샷)
 <head>
-	<strong style="font-family:sans-serif;font-size:xx-large; " >Rethink 서버 구축</strong>
+	<strong style="font-family:sans-serif;font-size:xx-large; " >Rethink 데이터베이스 구축</strong>
 	
 </head>
+
+<pr>
+	<strong style="font-family:sans-serif;font-size:xx-large; " >cmd창에서 rethinkdb.exe 커맨드로 rethink데이터 베이스를 구축한다  </strong>
+</pr>
+	
+	
 <hr>
 <img src="https://user-images.githubusercontent.com/43829772/50197534-d5de5a00-038a-11e9-9b27-28376a864b73.png" width="50%"></img>
 <hr>
 <head>
-	<strong style="font-family:sans-serif;font-size:xx-large; " >Tinode 데이터 </strong>
+	<strong style="font-family:sans-serif;font-size:xx-large; " >Tinode 서버 </strong>
 	
 </head>
 <img src="https://user-images.githubusercontent.com/43829772/50197665-7fbde680-038b-11e9-9801-87a308bfcf42.png" width="50%"></img>
@@ -73,7 +78,7 @@
 
 
 
-</body>
+
 
 ## 주요 기능 및 관련 코드 / API 설명
 1) STT (speech to text)
