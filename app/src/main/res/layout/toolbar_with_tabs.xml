@@ -1,6 +1,7 @@
 <android.support.design.widget.AppBarLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:theme="@style/AppTheme.AppBarOverlay">
@@ -9,7 +10,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
+        android:background="@color/연락혀부대표"
         android:contentInsetStartWithNavigation="4dp"
         app:contentInsetStartWithNavigation="4dp"
         app:popupTheme="@style/AppTheme.PopupOverlay">
@@ -26,19 +27,22 @@
     <android.support.design.widget.TabLayout
         android:id="@+id/tabsContacts"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="50dp"
+        app:tabBackground="@color/cardview_light_background"
+        app:tabIndicatorColor="@color/colorBorderRed"
+        app:tabIndicatorHeight="10dp">
 
         <android.support.design.widget.TabItem
             android:id="@+id/tab_chat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/chats"/>
+            android:text="@string/chats" />
 
         <android.support.design.widget.TabItem
             android:id="@+id/tab_contacts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/contacts"/>
+            android:text="@string/contacts" />
 
     </android.support.design.widget.TabLayout>
 
@@ -53,6 +57,7 @@
         android:id="@+id/tabPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/tabsContacts"/>
+        android:layout_below="@id/tabsContacts"
+        android:background="@color/연락혀부대표" />
 
 </android.support.design.widget.AppBarLayout>
