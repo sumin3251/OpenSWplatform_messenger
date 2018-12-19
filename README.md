@@ -1,7 +1,7 @@
 # 연락혀: 어르신들을 위한 특별한 메신저
 스마트폰 메신저앱 사용에 불편을 느껴 사회로 부터 소외감을 느끼시는 어르신들을 위해 최적화된 메신저 앱
 
-<img src="https://user-images.githubusercontent.com/43829772/50199288-5012dc80-0393-11e9-943b-692068950e34.jpg" width="40%"></img>
+<img src="https://user-images.githubusercontent.com/43829772/50200643-18f3f980-039a-11e9-8b94-5df95df73e97.png" width="40%"></img>
 <hr>
 
 ## 앱설명
