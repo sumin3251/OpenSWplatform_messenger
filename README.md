@@ -25,7 +25,7 @@
 * 1615011 김지민 : @jeemin97world / 중간발표(중반-후반), UI (로그인창, 로고 및 배경화면 디자인), 데이터베이스 연결
 * 1771014 김영주 : @RLADUDWN7237 / 중간발표(초반-중반), UI (친구목록, 로딩 화면), 안드로이드에 빌드
 * 1771094 박유진 : @jinee525 / UI, Readme 정리, 기말발표, UI(대화창, 로고 및 텍스트 변환 등 전체적 UI 담당00)
-* 1771039 윤소연 : @ysy9893 / 코드 분석(STT,Shake Detection, AndroidManifest.xml 등), tts 코드 연구 및 자료 , 기말발표
+* 1771039 윤소연 : @ysy9893 / 코드 분석(STT,Shake Detection, AndroidManifest.xml 등), tts 코드 연구 및 자료 , 기말발표, 리드미 앱기능
 * 1415030 박수민 : @sumin3251 / api(TTS, Shake detection), git repository 생성 및 관리, 서버 및 데이터베이스 생성
 
 ## 앱 사용법 (with 스크린샷)
@@ -110,7 +110,8 @@
 
 ## 웹 사용 (스크린 샷)
 
-
+<img src="https://user-images.githubusercontent.com/43829772/50200697-5e182b80-039a-11e9-9013-1ae29c979c06.png" width="40%"></img>
+<hr>
 
 
 
