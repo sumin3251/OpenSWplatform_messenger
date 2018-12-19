@@ -29,7 +29,7 @@
 
 ## 앱 사용법 (with 스크린샷)
 <head>
-	<strong style="font-family:sans-serif;font-size:xx-large; " >Rethink 데이터베이스 구축</strong>
+	<strong style="font-family:sans-serif;font-size:xx-large; " >Rethink 데이터베이스 구축 : </strong>
 	
 </head>
 
@@ -42,9 +42,12 @@
 <img src="https://user-images.githubusercontent.com/43829772/50197534-d5de5a00-038a-11e9-9b27-28376a864b73.png" width="50%"></img>
 <hr>
 <head>
-	<strong style="font-family:sans-serif;font-size:xx-large; " >Tinode 서버 </strong>
+	<strong style="font-family:sans-serif;font-size:xx-large; " >Tinode 서버 구동 :  </strong>
 	
 </head>
+<pr>
+	<strong style="font-family:sans-serif;font-size:xx-large; " >cmd창에서 init-db.exe -data=data.json 와 tinode.exe 커맨드로 서버를 구동시킨다 </strong>
+</pr>
 <img src="https://user-images.githubusercontent.com/43829772/50197665-7fbde680-038b-11e9-9801-87a308bfcf42.png" width="50%"></img>
 <hr>
 
@@ -56,17 +59,50 @@
 
 </head>
 
-<strong style="font-family:sans-serif;font-size:xx-large; " >1. 친구 목록에 사진을 </strong>
+<strong style="font-family:sans-serif;font-size:xx-large; " >1. 로그인창 : </strong>
 	
 </head>
+
+<pr>
+	<strong style="font-family:sans-serif;font-size:xx-large; " >앱을 실행면 로딩창과 로그인 창이 뜬다 </strong>
+</pr>
+
 <img src="https://user-images.githubusercontent.com/43829772/50199240-235ec500-0393-11e9-8175-168861116102.jpg" width="70%"></img>
 <hr>
+</head>
 
+<strong style="font-family:sans-serif;font-size:xx-large; " >2. 친구목록 및 대화창 : </strong>
+	
+</head>
+
+<pr>
+	<strong style="font-family:sans-serif;font-size:xx-large; " >로그인을 하면 자신이 기존에 추가한 친구들의 목록과 대화 목록이 뜬다 </strong>
+</pr>
 <img src="https://user-images.githubusercontent.com/43829772/50199288-5012dc80-0393-11e9-943b-692068950e34.jpg" width="70%"></img>
 <hr>
 
+</head>
+
+<strong style="font-family:sans-serif;font-size:xx-large; " >3.STT서비스 : </strong>
+	
+</head>
+
+<pr>
+	<strong style="font-family:sans-serif;font-size:xx-large; " >STT서비스로 음성인식을 통해 음성을 텍스트로 변환 </strong>
+</pr>
+
 <img src="https://user-images.githubusercontent.com/43829772/50199289-54d79080-0393-11e9-94f1-1048accfdc02.jpg" width="70%"></img>
 <hr>
+
+</head>
+
+<strong style="font-family:sans-serif;font-size:xx-large; " >4. Shake Detection: </strong>
+	
+</head>
+
+<pr>
+	<strong style="font-family:sans-serif;font-size:xx-large; " >반복된 흔들림을 감지하여 보호자에게 위급상황 알림 </strong>
+</pr>
 
 <img src="https://user-images.githubusercontent.com/43829772/50199291-57d28100-0393-11e9-8f03-173740d915f2.jpg" width="70%"></img>
 <hr>
