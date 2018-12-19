@@ -163,8 +163,8 @@
           
 *master에 올라간 파일 중 Manifest_분석, JavaClassFile_분석, Manifest_Activity 파일에 더 자세한 코드 분석이 되어있으니 참고바랍니다.
 
-##시연 동영상 (유투브 링크) 
-https://youtu.be/2JzjmH61rCU
+# 시연 동영상
+Youtube 링크 : https://youtu.be/2JzjmH61rCU
 
 ## 라이센스 정보
   APACHE 2.0 LICENSE
