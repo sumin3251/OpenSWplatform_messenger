@@ -5,7 +5,8 @@
 
 ## 앱설명
 * 노인분들이 쉽게 어플의 기능들을 모두 활용하여 의사소통할 수 있도록 특성화된 메신저 어플이다. 
-* 플랫폼: 모바일, 운영체제: 안드로이드
+* 플랫폼: 모바일 (어르신들이 메신저를 위한 수단으로 모바일을 가장 많이 사용한다는 실제 자료에 기반)
+* 운영체제: 안드로이드 (스마트폰을 사용하는 어르신들중 약 95%이상이 안드로이드 사용한다는 실제 자료에 기반)
 * 서버: Tinode 
 * 아이디, 비밀번호, 이메일 등으로 가입하고 로그인하여 이용한다.
 * 아이디, 이메일을 검색하여 친구를 찾아 추가, 대화를 할 수 있다.
@@ -20,11 +21,11 @@
 
 ## 개발자 정보
 
-* 1615011 김지민 : @jeemin97world / 중간발표, UI
-* 1771014 김영주 : @RLADUDWN7237 / 중간발표, UI
-* 1771094 박유진 : @jinee525 / 기말발표, UI, Readme 정리
-* 1771039 윤소연 : @ysy9893 / 기말발표 ,api
-* 1415030 박수민 : @sumin3251 / api(TTS, Shake detection)
+* 1615011 김지민 : @jeemin97world / 중간발표(중반-후반), UI (로그인창, 로고 및 배경화면 디자인), 데이터베이스 연결
+* 1771014 김영주 : @RLADUDWN7237 / 중간발표(초반-중반), UI (친구목록, 로딩 화면), 안드로이드에 빌드
+* 1771094 박유진 : @jinee525 / UI, Readme 정리, 기말발표, UI(대화창, 로고 및 텍스트 변환 등 전체적 UI 담당00)
+* 1771039 윤소연 : @ysy9893 / 코드 분석, tts 코드 연구, 기말발표
+* 1415030 박수민 : @sumin3251 / api(TTS, Shake detection), git repository 생성 및 관리, 서버및 데이터베이스 생성
 
 ## 앱 사용법 (with 스크린샷)
 
@@ -56,16 +57,17 @@
 
   
 3) Seismic (shake to speech)  
-   shakeTimes을 변수로 두어 3번 이상 흔들 경우 sendEmergency를 참으로 바꿔 알림 메세지를 보낸다.
+   shakeTimes을 변수로 설정하여 사용자가 기기를 3번 이상 흔들 경우 sendEmergency를 참으로 바꿔 알림 메세지를 보낸다.
  
         public void hearShake() {
-              while(shakeTimes < 3) {
+              while(shakeTimes < 3) {        
                   shakeTimes++;
               }
-              Toast.makeText(getContext(), "흔들림이 3번 감지되었습니다.", Toast.LENGTH_SHORT).show();
+              Toast.makeText(getContext(), "흔들림이 3번 감지되었습니다.", Toast.LENGTH_SHORT).show();     
               if(sendEmergency == true) {
                   sendEmergency = false;
                   txtSpeechInput.setText("[보호자 알림] 2018-12-15 02:32 OOO님의 휴대폰에서 긴급 상황이 감지되었습니다.");
+                            // 등록된 보호자에게 긴급 상황 메세지 발신
                   sendText();
                   txtSpeechInput.setText("");
               }
