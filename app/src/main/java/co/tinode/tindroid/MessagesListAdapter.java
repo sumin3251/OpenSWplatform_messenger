@@ -146,6 +146,7 @@ public class MessagesListAdapter
                 } else {
                     notifyDataSetChanged();
                 }
+
             }
 
             @Override
@@ -169,11 +170,13 @@ public class MessagesListAdapter
                     case R.id.action_view_details:
                         Log.d(TAG, "Show message details");
                         return true;
+
                     default:
                         break;
                 }
                 return false;
             }
+
         };
 
         mSpanFormatterClicker = new SpanClicker();
@@ -195,6 +198,7 @@ public class MessagesListAdapter
         }
         return items;
     }
+
 
     @SuppressWarnings("unchecked")
     private void copyMessageText(int[] positions) {

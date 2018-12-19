@@ -9,6 +9,8 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorListener;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.OpenableColumns;
@@ -66,7 +68,9 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 import android.speech.RecognizerIntent;
+import android.hardware.SensorManager;
 
+import com.squareup.seismic.ShakeDetector;
 
 import static android.app.Activity.RESULT_OK;
 
@@ -74,7 +78,7 @@ import static android.app.Activity.RESULT_OK;
  * Fragment handling message display and message sending.
  */
 public class MessagesFragment extends Fragment
-        implements LoaderManager.LoaderCallbacks<MessagesFragment.UploadResult> {
+        implements ShakeDetector.Listener, LoaderManager.LoaderCallbacks<MessagesFragment.UploadResult> {
     private static final String TAG = "MessageFragment";
 
     private static final int MESSAGES_TO_LOAD = 20;
@@ -109,12 +113,20 @@ public class MessagesFragment extends Fragment
     private ImageButton btnSpeak;
     private final int REQ_CODE_SPEECH_INPUT = 500;
 
+    // for Shake Detection
+    private int shakeTimes = 0;
+    private boolean sendEmergency = true;
+
     public MessagesFragment() {
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        SensorManager sensorManager = (SensorManager) getContext().getSystemService(Context.SENSOR_SERVICE);
+        ShakeDetector sd = new ShakeDetector(this);
+        sd.start(sensorManager);
     }
 
     @Override
@@ -259,7 +271,7 @@ public class MessagesFragment extends Fragment
         });
     }
 
-    // for STT ftns
+    // SST function
     private void promptSpeechInput() {
         Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
@@ -275,8 +287,21 @@ public class MessagesFragment extends Fragment
                     Toast.LENGTH_SHORT).show();
         }
     }
-    // ~for SST ftns
 
+    // Shake Detection function
+    public void hearShake() {
+        while(shakeTimes < 3) {
+            shakeTimes++;
+        }
+
+        Toast.makeText(getContext(), "흔들림이 3번 감지되었습니다.", Toast.LENGTH_SHORT).show();
+        if(sendEmergency == true) {
+            sendEmergency = false;
+            txtSpeechInput.setText("[보호자 알림] 2018-12-15 02:32 OOO님의 휴대폰에서 긴급 상황이 감지되었습니다.");
+            sendText();
+            txtSpeechInput.setText("");
+        }
+    }
     @Override
     @SuppressWarnings("unchecked")
     public void onResume() {
