@@ -29,7 +29,8 @@
                 android:layout_height="wrap_content"
                 android:maxWidth="270dp"
                 android:textColor="@color/colorTextPrimary"
-                tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+                android:textSize="30sp"
+                tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
 
             <TextView
                 android:id="@+id/messageMeta"

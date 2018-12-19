@@ -46,7 +46,7 @@
     <color name="colorBorderGreen">#4CAF50</color>
     <color name="colorBorderGray">#9E9E9E</color>
     <color name="colorBorderBlue">#2196F3</color>
-    <color name="colorBorderRed">#E57373</color>
+    <color name="colorBorderRed">#f16262</color>
     <color name="colorBorderYellow">#FFCA28</color>
 
     <color name="colorMessageBubble">#c5e1a5</color>
@@ -94,5 +94,6 @@
         <item>#D84315</item>
     </array>
     <color name="letter_tile_text_color_dark">#dedede</color>
-
+    <color name="연락혀대표">#f35645</color>
+    <color name="연락혀부대표">#ffcbb6</color>
 </resources>

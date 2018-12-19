@@ -1,7 +1,7 @@
 <resources>
     <string name="asset_statements" translatable="false">[{ \"include\": \"https://api.tinode.co/.well-known/assetlinks.json\" }]</string>
     <string name="tinode_url" translatable="false">https://github.com/sumin3251/OpenSWplatform_messenger.git</string>
-    <string name="default_host_name" translatable="false">172.20.10.2:6060</string>
+    <string name="default_host_name" translatable="false">  172.20.10.5:6060</string>
 
     <string name="app_name" translatable="false">연락혀</string>
     <string name="app_name_full" translatable="false">친구야, 연락혀 메신저</string>
@@ -73,7 +73,6 @@
     <string name="action_send_now">Send now</string>
     <string name="action_view_details">View details</string>
     <string name="action_copy">Copy</string>
-    <string name="action_speak" translatable="false">Speak</string>
     <string name="action_offline">Working offline</string>
     <string name="action_delete_group">대화 삭제</string>
 
