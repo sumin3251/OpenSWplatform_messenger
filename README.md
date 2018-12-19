@@ -33,13 +33,13 @@
 	
 </head>
 <hr>
-<img src="https://user-images.githubusercontent.com/43829772/50197534-d5de5a00-038a-11e9-9b27-28376a864b73.png" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/43829772/50197534-d5de5a00-038a-11e9-9b27-28376a864b73.png" width="50%"></img>
 <hr>
 <head>
 	<strong style="font-family:sans-serif;font-size:xx-large; " >Tinode 데이터 </strong>
 	
 </head>
-<img src="https://user-images.githubusercontent.com/43829772/50197665-7fbde680-038b-11e9-9801-87a308bfcf42.png" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/43829772/50197665-7fbde680-038b-11e9-9801-87a308bfcf42.png" width="50%"></img>
 
 
 
