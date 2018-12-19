@@ -42,7 +42,7 @@
 	
 	
 <hr>
-<img src="https://user-images.githubusercontent.com/43829772/50197534-d5de5a00-038a-11e9-9b27-28376a864b73.png" width="50%"></img>
+<img src="https://user-images.githubusercontent.com/43198921/50220565-026b9380-03d6-11e9-9cd9-531abd27e37e.PNG" width="50%"></img>
 <hr>
 <head>
 	<strong style="font-family:sans-serif;font-size:xx-large; " >Tinode 서버 구동 :  </strong>
@@ -51,7 +51,7 @@
 <pr>
 	<strong style="font-family:sans-serif;font-size:xx-large; " >cmd창에서 init-db.exe -data=data.json 와 tinode.exe 커맨드로 서버를 구동시킨다 </strong>
 </pr>
-<img src="https://user-images.githubusercontent.com/43829772/50197665-7fbde680-038b-11e9-9801-87a308bfcf42.png" width="50%"></img>
+<img src="https://user-images.githubusercontent.com/43198921/50220562-00093980-03d6-11e9-8052-3c3a8f6fe715.PNG" width="50%"></img>
 <hr>
 
 </head>
